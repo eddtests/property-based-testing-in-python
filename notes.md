@@ -6,7 +6,7 @@ Quick review of unit testing
 
 The issues with unit testing
 * Testing every input is boring
-* Thinking of every edge case is hard & error prone
+* Thinking of every edge case is hard & error-prone
 
 Introduce Hypothesis
 * We generate code, why not generate tests?
@@ -34,7 +34,7 @@ Vocabulary
 
 Issues with property based testing
 * They are slower (they run more tests)
-* Test pipelines become non deterministic (failures are good to find, but re-running CI can pass then fail!)
+* Test pipelines become non-deterministic (failures are good to find, but re-running CI can pass then fail!)
 * Writing good properties is hard
 * Writing enough properties is hard
 
