@@ -12,7 +12,6 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(Calculator.division(x, y), x / y)
 
     @given(x=integers(), y=integers())
-
     def test_division(self, x, y):
         self.assertEqual(Calculator.division(x, y), x / y)
 
